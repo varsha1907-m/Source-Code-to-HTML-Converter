@@ -1,0 +1,83 @@
+
+body
+{
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2
+{
+    color: #333333;
+    text-align: center;
+}
+
+pre
+{
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Data type keywords */
+.reserved_key1
+{
+    color: green;
+    font-weight: bold;
+}
+
+/* Other keywords */
+.reserved_key2
+{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/* Comments */
+.comment
+{
+    color: blue;
+    font-style: italic;
+}
+
+/* Preprocessor directives */
+.preprocess_dir
+{
+    color: purple;
+    font-weight: bold;
+}
+
+/* Header files */
+.header_file
+{
+    color: red;
+}
+
+/* Strings */
+.string
+{
+    color: magenta;
+}
+
+/* Numeric constants */
+.numeric_constant
+{
+    color: brown;
+}
+
+/* Character constants */
+.ascii_char
+{
+    color: firebrick;
+}
+
+/* Operators */
+.operator
+{
+    color: darkcyan;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Source Code to HTML Converter</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Source Code to HTML Converter</h2>
+<pre>
+
+<span class="preprocess_dir">#include</span> <span class="header_file">&lt;stdio.h&gt;</span>
+<span class="preprocess_dir">#define</span> LIMIT <span class="numeric_constant">50</span>
+
+<span class="reserved_key1">int</span> main()
+{
+    <span class="reserved_key1">int</span> x <span class="operator">=</span> <span class="numeric_constant">20</span>;
+    <span class="reserved_key1">int</span> y <span class="operator">=</span> <span class="numeric_constant">8</span>;
+    <span class="reserved_key1">int</span> total <span class="operator">=</span> <span class="numeric_constant">0</span>;
+
+    <span class="comment">// Arithmetic operations
+</span>    total <span class="operator">=</span> x <span class="operator">+</span> y;
+    <span class="reserved_key1">int</span> remainder <span class="operator">=</span> x <span class="operator">%</span> y;
+
+    <span class="comment">/* Relational and logical operations */</span>
+    <span class="reserved_key2">if</span>(x <span class="operator">&gt;</span> y <span class="operator">&amp;&amp;</span> y <span class="operator">!=</span> <span class="numeric_constant">0</span>)
+    {
+        printf(<span class="string">&quot;X is greater than Y\n&quot;</span>);
+        printf(<span class="string">&quot;Testing operators: + - * / %\n&quot;</span>);
+    }
+
+    <span class="comment">// Increment and decrement
+</span>    x<span class="operator">++</span>;
+    y<span class="operator">--</span>;
+
+    <span class="comment">// Compound assignment
+</span>    total <span class="operator">+=</span> <span class="numeric_constant">10</span>;
+    total <span class="operator">-=</span> <span class="numeric_constant">2</span>;
+
+    <span class="comment">// Bitwise operations
+</span>    <span class="reserved_key1">int</span> result <span class="operator">=</span> (x <span class="operator">&amp;</span> y) <span class="operator">|</span> (x <span class="operator">^</span> y);
+    <span class="reserved_key1">int</span> shifted <span class="operator">=</span> x <span class="operator">&gt;&gt;</span> <span class="numeric_constant">2</span>;
+
+    <span class="reserved_key1">char</span> grade <span class="operator">=</span> <span class="ascii_char">&#39;A&#39;</span>;
+
+    <span class="reserved_key1">float</span> average <span class="operator">=</span> <span class="numeric_constant">25.5f</span>;
+
+    printf(<span class="string">&quot;Total = %d\n&quot;</span>, total);
+    printf(<span class="string">&quot;Grade = %c\n&quot;</span>, grade);
+    printf(<span class="string">&quot;Average = %.2f\n&quot;</span>, average);
+
+    <span class="reserved_key2">return</span> <span class="numeric_constant">0</span>;
+}
+</pre>
+</body>
+</html>
